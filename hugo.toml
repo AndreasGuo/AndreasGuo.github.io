@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://AndreasGuo.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'gokarna'
@@ -33,3 +33,6 @@ theme = 'gokarna'
     # icons: https://feathericons.com
     pre = "<span data-feather='github'></span>"
     post = ""
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
